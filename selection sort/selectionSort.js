@@ -24,3 +24,5 @@ var lenght = prompt('Enter lenght of array');
 alert(arr + ' Click Enter and a program will sort array');
 	selectionSort(arr);
 alert(arr);
+
+/*By Oleh Fylypiv */
