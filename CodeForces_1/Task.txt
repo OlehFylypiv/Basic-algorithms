@@ -1,0 +1,45 @@
+http://codeforces.com
+
+A. Размер монитора
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод: стандартный вывод
+
+Крупная компания решила запустить новую серию прямоугольных мониторов, при этом решив, что на мониторе должно быть ровно n пикселей.
+
+Перед вами стоит задача определить размеры прямоугольного монитора — количество a строк (рядов) из пикселей и количество b столбцов из пикселей, чтобы:
+
+на мониторе было ровно n пикселей,
+количество строк не превышало количество столбцов, то есть a ≤ b,
+разница b - a была минимально возможной.
+
+Входные данные
+В первой строке следует целое положительное число n (1 ≤ n ≤ 10^6) — количество пикселей, которые должны быть на мониторе.
+
+Выходные данные
+Выведите два числа — количество рядов и количество столбцов, которые должны быть на мониторе.
+
+--------------------------------------------------------------------------------
+
+A. Display Size
+time limit per test : 1 second
+memory limit per test :256 megabytes
+input : standard input
+output : standard output
+
+A big company decided to launch a new series of rectangular displays, and decided that the display must have exactly n pixels.
+
+Your task is to determine the size of the rectangular display — the number of lines (rows) of pixels a and the number of columns of pixels b, so that:
+
+there are exactly n pixels on the display;
+the number of rows does not exceed the number of columns, it means a ≤ b;
+the difference b - a is as small as possible.
+
+Input
+The first line contains the positive integer n (1 ≤ n ≤ 10^6) — the number of pixels display should have.
+
+Output
+Print two integers — the number of rows and columns on the display.
+
+http://codeforces.com/problemset/problem/747/A?locale=en
