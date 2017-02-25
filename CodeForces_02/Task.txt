@@ -1,0 +1,77 @@
+http://codeforces.com
+
+A. Антон и Даник
+ограничение по времени на тест :1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+Антону нравится играть в шахматы. Поэтому он часто играет в эту увлекательную игру со своим другом Даником.
+
+Однажды, Антон с Даником сыграли n партий подряд. Для каждой партии друзьям известно, кто в ней победил — Антон или Даник. При этом ни одна из партий не окончилась вничью.
+
+Антону стало интересно, кто же выиграл больше раз — он или Даник? Помогите Антону и определите это.
+
+Входные данные
+В первой строке входных данных находится единственное число n (1 ≤ n ≤ 100 000) — количество партий, которое сыграли Антон с Даником.
+
+Во второй строке входных данных находится строка s, состоящая ровно из n заглавных латинских букв «A» или «D» — исходы шахматных партий. При этом i-й символ строки s равен «A», если в i-й партии победил Антон, или «D», если в i-й партии победил Даник.
+
+Выходные данные
+Если Антон выиграл большее количество партий, чем Даник, выведите «Anton» (без кавычек).
+
+Если Даник выиграл большее количество партий, чем Антон, выведите «Danik» (без кавычек).
+
+Если Антон и Даник выиграли поровну партий, выведите «Friendship» (без кавычек).
+
+Примеры:
+--------------
+входные данные
+	6
+	ADAAAA
+выходные данные
+	Anton
+--------------
+входные данные
+	7
+	DDDAADA
+выходные данные
+	Danik
+
+-------------------------------------------------------------------------------------
+A. Anton and Danik
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+Anton likes to play chess, and so does his friend Danik.
+
+Once they have played n games in a row. For each game it's known who was the winner — Anton or Danik. None of the games ended with a tie.
+
+Now Anton wonders, who won more games, he or Danik? Help him determine this.
+
+Input
+The first line of the input contains a single integer n (1 ≤ n ≤ 100 000) — the number of games played.
+
+The second line contains a string s, consisting of n uppercase English letters 'A' and 'D' — the outcome of each of the games. The i-th character of the string is equal to 'A' if the Anton won the i-th game and 'D' if Danik won the i-th game.
+
+Output
+If Anton won more games than Danik, print "Anton" (without quotes) in the only line of the output.
+
+If Danik won more games than Anton, print "Danik" (without quotes) in the only line of the output.
+
+If Anton and Danik won the same number of games, print "Friendship" (without quotes).
+
+Examples:
+input
+	6
+	ADAAAA
+output
+	Anton
+----------
+input
+	6
+	DADADA
+output
+	Friendship
+
+http://codeforces.com/problemset/problem/734/A?locale=ru
