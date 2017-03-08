@@ -1,0 +1,95 @@
+A. Соковыжималка
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+Коля хочет приготовить себе свежевыжатый апельсиновый сок. У него есть n апельсинов с размерами a1, a2, ..., an. Коля кладёт эти апельсины в соковыжималку в фиксированном порядке: сначала апельсин размера a1, затем апельсин размера a2 и так далее. В соковыжималку помещаются апельсины размером не более b, поэтому если Коля видит апельсин строго большего размера, то он его выкидывает и переходит к следующему.
+
+У соковыжималки имеется контейнер для отходов, который переполняется, когда Коля выжмет апельсинов суммарным размером строго больше d. Как только это происходит, Коля опорожняет контейнер (даже если апельсинов больше не осталось) и продолжает выжимать сок дальше. Сколько раз Коле придется опорожнить контейнер?
+
+Входные данные
+В первой строке входных данных даны три целых числа n, b и d (1 ≤ n ≤ 100 000, 1 ≤ b ≤ d ≤ 1 000 000) — количество апельсинов, максимально допустимый размер апельсина, который помещается в соковыжималку, и параметр d, определяющий условие опорожнения контейнера для отходов.
+
+Во второй строке записаны n целых чисел a1, a2, ..., an (1 ≤ ai ≤ 1 000 000) — размеры апельсинов, перечисленные в том порядке, в котором Коля будет пробовать добавлять их в соковыжималку.
+
+Выходные данные
+Выведите единственное целое число — сколько раз Коле придётся опорожнить контейнер для отходов.
+
+Примеры :
+входные данные
+2 7 10
+5 6
+выходные данные
+1
+---------------
+входные данные
+1 5 10
+7
+выходные данные
+0
+---------------
+входные данные
+3 10 10
+5 7 7
+выходные данные
+1
+---------------
+входные данные
+1 1 1
+1
+выходные данные
+0
+---------------
+Примечание
+В первом тестовом примере Коля сделает сок из двух апельсинов и после этого очистит контейнер.
+
+Во втором тестовом примере апельсин не помещается в соковыжималку и Коля останется без сока.
+-----------------------------------------------------------------------------------------------------------------
+A. Juicer
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+Kolya is going to make fresh orange juice. He has n oranges of sizes a1, a2, ..., an. Kolya will put them in the juicer in the fixed order, starting with orange of size a1, then orange of size a2 and so on. To be put in the juicer the orange must have size not exceeding b, so if Kolya sees an orange that is strictly greater he throws it away and continues with the next one.
+
+The juicer has a special section to collect waste. It overflows if Kolya squeezes oranges of the total size strictly greater than d. When it happens Kolya empties the waste section (even if there are no more oranges) and continues to squeeze the juice. How many times will he have to empty the waste section?
+
+Input
+The first line of the input contains three integers n, b and d (1 ≤ n ≤ 100 000, 1 ≤ b ≤ d ≤ 1 000 000) — the number of oranges, the maximum size of the orange that fits in the juicer and the value d, which determines the condition when the waste section should be emptied.
+
+The second line contains n integers a1, a2, ..., an (1 ≤ ai ≤ 1 000 000) — sizes of the oranges listed in the order Kolya is going to try to put them in the juicer.
+
+Output
+Print one integer — the number of times Kolya will have to empty the waste section.
+
+Examples :
+input
+2 7 10
+5 6
+output
+1
+------
+input
+1 5 10
+7
+output
+0
+------
+input
+3 10 10
+5 7 7
+output
+1
+------
+input
+1 1 1
+1
+output
+0
+------
+Note
+In the first sample, Kolya will squeeze the juice from two oranges and empty the waste section afterwards.
+
+In the second sample, the orange won't fit in the juicer so Kolya will have no juice at all.
+
+http://codeforces.com/problemset/problem/709/A?locale=en
