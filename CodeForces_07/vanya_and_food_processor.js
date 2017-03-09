@@ -9,6 +9,7 @@ let time = prompt('Enter time of griding');
 alert (number);
 alert (heigth);
 alert (time);
+	/* unfinished function .... does not work in all cases .... I fix it soon */
 function grindingPotatoes (number, heigth, time, heigthPotatoes) {
 	let buff = 0;
 	let counterTime = 0;
