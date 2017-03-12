@@ -1,0 +1,65 @@
+	A. Johny Likes Numbers
+time limit per test : 0.5 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Johny likes numbers n and k very much. 
+	Now Johny wants to find the smallest integer x greater than n,
+	so it is divisible by the number k.
+
+	Input :
+The only line contains two integers n and k (1 ≤ n, k ≤ 109).
+
+	Output :
+Print the smallest integer x > n, so it is divisible by the number k.
+
+	Examples :
+input
+5 3
+output
+6
+-----
+input
+25 13
+output
+26
+-----
+input
+26 13
+output
+39
+----------------------------------------------
+	A. Вася любит числа
+ограничение по времени на тест : 0.5 секунд
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Вася очень любит числа n и k. 
+	Сейчас Вася хочет найти наименьшее целое число x большее n такое,
+	что x делится нацело на число k.
+
+	Входные данные :
+В единственной строке находится пара целых чисел n и k (1 ≤ n, k ≤ 109).
+
+	Выходные данные :
+Выведите наименьшее целое число x > n, делящееся на число k.
+
+	Примеры :
+входные данные
+5 3
+выходные данные
+6
+--------------
+входные данные
+25 13
+выходные данные
+26
+--------------
+входные данные
+26 13
+выходные данные
+39
+
+http://codeforces.com/problemset/problem/678/A?locale=ru
