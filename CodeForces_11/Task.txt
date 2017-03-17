@@ -1,0 +1,90 @@
+	A. Польшар и Гипотеза
+ограничение по времени на тест : 2 секунды
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+	
+	Польшар — юный, умный шар. Он заинтересовался простыми числами. 
+	Он придумал следующую гипотезу: «Существует натуральное число n такое, 
+	что для любого натурального m число n·m + 1 является простым».
+
+	К сожалению, Польшар еще неопытен и не знает, что его гипотеза неверна. 
+	Можете опровергнуть ее? Напишите программу, 
+	которая найдет контрпример для любого n.
+
+	Входные данные : 
+Ввод состоит из одного целого числа из гипотезы Польшара n (1 ≤ n ≤ 1000).
+
+	Выходные данные :
+Выведите такое m, что n·m + 1 не является простым. 
+Ваш ответ будет считаться правильным, 
+если вы выведете любое подходящее m такое, что 1 ≤ m ≤ 10^3. 
+Гарантируется, что ответ существует.
+
+	Примеры :
+входные данные
+3
+выходные данные
+1
+---------------
+входные данные
+4
+выходные данные
+2
+---------------
+	Примечание :
+Натуральное число большее 1 называется простым, 
+если у него нет натуральных делителей кроме 1 и его самого.
+
+В первом примере 3·1 + 1 = 4. Можно вывести 1.
+
+Во втором примере 4·1 + 1 = 5. Вывести 1 нельзя, т. к. 5 — простое. 
+Однако, m = 2 подойдет, т. к. 4·2 + 1 = 9, что не является простым числом.
+-----------------------------------------------------------------------------
+	A. PolandBall and Hypothesis
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	PolandBall is a young, clever Ball. 
+	He is interested in prime numbers. He has stated a following hypothesis: 
+	"There exists such a positive integer n 
+	that for each positive integer m number n·m + 1 is a prime number".
+
+	Unfortunately, PolandBall is not experienced yet and doesn't know 
+	that his hypothesis is incorrect. 
+	Could you prove it wrong? Write a program 
+	that finds a counterexample for any n.
+
+	Input :
+The only number in the input is n (1 ≤ n ≤ 1000) — 
+number from the PolandBall's hypothesis.
+
+	Output :
+Output such m that n·m + 1 is not a prime number. 
+Your answer will be considered correct if you output any suitable m 
+such that 1 ≤ m ≤ 10^3. It is guaranteed the the answer exists.
+
+	Examples :
+input
+3
+output
+1
+-------
+input
+4
+output
+2
+-------
+	Note :
+A prime number (or a prime) is a natural number greater than 1 
+that has no positive divisors other than 1 and itself.
+
+For the first sample testcase, 3·1 + 1 = 4. We can output 1.
+
+In the second sample testcase, 4·1 + 1 = 5. 
+We cannot output 1 because 5 is prime. 
+However, m = 2 is okay since 4·2 + 1 = 9, which is not a prime number.
+
+http://codeforces.com/problemset/problem/755/A?locale=en
