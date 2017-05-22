@@ -1,0 +1,77 @@
+	A. Счастливый год
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+Помимо множества праздников в течение всего года жители Берляндии еще и считают некоторые годы счастливыми. 
+Год называется счастливым, когда его запись содержит не более 1 ненулевой цифры. 
+Так годы 100, 40000, 5 — счастливые, а 12, 3001 и 12345 — нет.
+
+Вам задан текущий год в Берляндии. 
+Найдите, сколько лет придется ждать жителям Берляндии до следующего счастливого года.
+
+	Входные данные :
+В первой строке записано целое число n (1 ≤ n ≤ 109) — текущий год в Берляндии.
+
+	Выходные данные :
+Выведите количество лет от текущего года до следующего счастливого.
+
+	Примеры :
+входные данные
+4
+выходные данные
+1
+----------------
+входные данные
+201
+выходные данные
+99
+----------------
+входные данные
+4000
+выходные данные
+1000
+----------------
+	Примечание :
+В первом примере следующий счастливый год — 5. Во втором — 300. В третьем — 5000.
+-----------------------------------------------------------------------------------------------------------
+	A. Lucky Year
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+Apart from having lots of holidays throughout the year, residents of Berland also have whole lucky years. 
+Year is considered lucky if it has no more than 1 non-zero digit in its number. 
+So years 100, 40000, 5 are lucky and 12, 3001 and 12345 are not.
+
+You are given current year in Berland. 
+Your task is to find how long will residents of Berland wait till the next lucky year.
+
+	Input :
+The first line contains integer number n (1 ≤ n ≤ 109) — current year in Berland.
+
+	Output :
+Output amount of years from the current year to the next lucky one.
+
+	Examples :
+input
+4
+output
+1
+-------
+input
+201
+output
+99
+-------
+input
+4000
+output
+1000
+-------
+	Note :
+In the first example next lucky year is 5. In the second one — 300. In the third — 5000.
+
+http://codeforces.com/problemset/problem/808/A?locale=en
