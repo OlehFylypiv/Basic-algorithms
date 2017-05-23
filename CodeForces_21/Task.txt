@@ -1,0 +1,91 @@
+	A. Олег и акции
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Простой клиент банка Олег каждый день проверяет цены на акции, которыми сейчас владеет. 
+	Его интересуют цены на n акций. Открыв в очередной раз сайт с котировками, Олег заметил, 
+	что каждую секунду цена ровно одной акции Олега опускается на k рублей 
+	(заметьте, что в разные секунды может меняться цена разных акций, 
+	но в каждую секунду меняется цена только одной акции).
+	Цена акций может стать отрицательной. Олега очень заинтересовал этот процесс, и он решил спросить у аналитика Игоря,
+	через какое минимальное количество секунд цена всех его n акций может стать одинаковой, либо же удостовериться, 
+	что такого никогда не случится. 
+	Однако Игорь оказался слишком занят делами в своем офисе, и попросил вас помочь Олегу. 
+	Справитесь ли вы с этим поручением?
+
+	Входные данные :
+На первой строке через пробел даны числа n и k (1 ≤ n ≤ 105, 1 ≤ k ≤ 109) — 
+количество акций Олега и количество рублей, на которые каждую секунду опускается цена произвольной акции Олега.
+
+На следующей строке через пробел даны n целых чисел a1, a2, ..., an (1 ≤ ai ≤ 109) — 
+цены акций Олега на момент, когда он открыл сайт с котировками.
+
+	Выходные данные :
+На первой и единственной строке выведите одно целое число — 
+через какое минимальное количество секунд цены всех акций могут стать одинаковыми, 
+либо выведите «-1», если такого произойти не может.
+
+	Примеры :
+входные данные
+3 3
+12 9 15
+выходные данные
+3
+-----------------
+входные данные
+2 2
+10 9
+выходные данные
+-1
+-----------------
+входные данные
+4 1
+1 1000000000 1000000000 1000000000
+выходные данные
+2999999997
+-------------------------------------------------------------------------------------------------------------------
+	A. Oleh and shares
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Oleg the bank client checks share prices every day. There are n share prices he is interested in. 
+	Today he observed that each second exactly one of these prices decreases by k rubles 
+	(note that each second exactly one price changes, but at different seconds different prices can change). 
+	Prices can become negative. Oleg found this process interesting, and he asked Igor the financial analyst, 
+	what is the minimum time needed for all n prices to become equal, or it is impossible at all? 
+	Igor is busy right now, so he asked you to help Oleg. Can you answer this question?
+
+	Input : 
+The first line contains two integers n and k (1 ≤ n ≤ 105, 1 ≤ k ≤ 109) — 
+the number of share prices, and the amount of rubles some price decreases each second.
+
+The second line contains n integers a1, a2, ..., an (1 ≤ ai ≤ 109) — the initial prices.
+
+	Output :
+Print the only line containing the minimum number of seconds needed for prices to become equal, 
+of «-1» if it is impossible.
+
+	Examples :
+input
+3 3
+12 9 15
+output
+3
+---------
+input
+2 2
+10 9
+output
+-1
+---------
+input
+4 1
+1 1000000000 1000000000 1000000000
+output
+2999999997
+
+http://codeforces.com/problemset/problem/793/A?locale=en
