@@ -1,0 +1,77 @@
+	A. k-й делитель
+ограничение по времени на тест : 2 секунды
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Даны два натуральных числа n и k. Найдите k-й в порядке возрастания делитель числа n, 
+	либо сообщите, что его не существует.
+
+	Делителем числа n является любое натуральное число, на которое число n делится без остатка.
+
+	Входные данные :
+В первой строке следуют два целых числа n и k (1 ≤ n ≤ 1015, 1 ≤ k ≤ 109).
+
+	Выходные данные :
+Если у числа n менее k делителей, выведите -1.
+
+В противном случае, выведите k-й в порядке возрастания делитель числа n.
+
+	Примеры :
+входные данные
+4 2
+выходные данные
+2
+----------------
+входные данные
+5 3
+выходные данные
+-1
+----------------
+входные данные
+12 5
+выходные данные
+6
+----------------
+	Примечание :
+В первом пример у числа 4 есть три делителя: 1, 2 и 4. Второй из них — 2.
+Во втором примере у числа 5 есть только два делителя, 1 и 5. Ответ -1, потому что третьего делителя нет.
+-----------------------------------------------------------------------------------------------------------
+	A. k-th divisor
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+You are given two integers n and k. Find k-th smallest divisor of n, or report that it doesn't exist.
+Divisor of n is any such natural number, that n can be divided by it without remainder.
+
+	Input :
+The first line contains two integers n and k (1 ≤ n ≤ 1015, 1 ≤ k ≤ 109).
+
+Output :
+If n has less than k divisors, output -1.
+
+Otherwise, output the k-th smallest divisor of n.
+
+	Examples :
+input
+4 2
+output
+2
+--------
+input
+5 3
+output
+-1
+--------
+input
+12 5
+output
+6
+--------
+	Note :
+In the first example, number 4 has three divisors: 1, 2 and 4. The second one is 2.
+In the second example, number 5 has only two divisors: 1 and 5. The third divisor doesn't exist, so the answer is -1.
+
+http://codeforces.com/problemset/problem/762/A?locale=en
