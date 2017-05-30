@@ -1,0 +1,73 @@
+	A. Владик и вежливость
+ограничение по времени на тест : 2 секунды
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Владик и Валера на очередном соревновании выиграли a и b конфет соответственно. 
+	Владик предложил Валере 1 свою конфету, после этого Валера, чтобы никто не подумал, 
+	что он менее щедрый, дал Владику 2 свои конфеты, 
+	Владик по той же причине следующий раз дал уже 3 свои конфеты...
+
+	Более формально, ребята по очереди давали друг другу на одну конфету больше, 
+	чем получали на предыдущем шаге.
+
+	Так продолжалось до момента, когда один из них не смог дать нужное количество своих конфет. 
+	Конфеты, которые ребята получили друг от друга, они не считают своими. 
+	Вам нужно узнать, кто первый не сможет дать нужное количество конфет.
+
+	Входные данные :
+Единственная строка входных данных содержит два целых числа a, b (1 ≤ a, b ≤ 109) — 
+количество конфет Владика и Валеры соответсвенно.
+
+	Выходные данные :
+Единственная строка выходного файла должна содержать «Vladik» в случае, 
+если Владик первый не сможет дать нужное количество конфет, и «Valera» иначе.
+
+	Примеры :
+входные данные
+1 1
+выходные данные
+Valera
+----------------
+входные данные
+7 6
+выходные данные
+Vladik
+-------------------------------------------------------------------------------------------------------------------
+	A. Vladik and Courtesy
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	At regular competition Vladik and Valera won a and b candies respectively. 
+	Vladik offered 1 his candy to Valera. 
+	After that Valera gave Vladik 2 his candies, so that no one thought that he was less generous. 
+	Vladik for same reason gave 3 candies to Valera in next turn.
+
+	More formally, the guys take turns giving each other one candy more than they received in the previous turn.
+
+	This continued until the moment when one of them couldn’t give the right amount of candy. 
+	Candies, which guys got from each other, they don’t consider as their own. You need to know, 
+	who is the first who can’t give the right amount of candy.
+
+	Input :
+Single line of input data contains two space-separated integers a, b (1 ≤ a, b ≤ 109) — 
+number of Vladik and Valera candies respectively.
+
+	Output :
+Pring a single line "Vladik’’ in case, if Vladik first who can’t give right amount of candy, or "Valera’’ otherwise.
+
+	Examples :
+input
+1 1
+output
+Valera
+---------
+input
+7 6
+output
+Vladik
+
+http://codeforces.com/problemset/problem/811/A?locale=en
