@@ -1,0 +1,90 @@
+	A. Слишком длинные слова
+ограничение по времени на тест : 2 seconds
+ограничение по памяти на тест : 256 megabytes
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Иногда некоторые слова вроде «localization» или «internationalization» настолько длинны, 
+	что их весьма утомительно писать много раз в каком либо тексте.
+
+	Будем считать слово слишком длинным, если его длина строго больше 10 символов. 
+	Все слишком длинные слова можно заменить специальной аббревиатурой.
+
+	Эта аббревиатура строится следующим образом: записывается первая и последняя буква слова, 
+	а между ними — количество букв между первой и последней буквой 
+	(в десятичной системе счисления и без ведущих нулей).
+
+	Таком образом, «localization» запишется как «l10n», а «internationalization» как «i18n».
+
+	Вам предлагается автоматизировать процесс замены слов на аббревиатуры. 
+	При этом все слишком длинные слова должны быть заменены аббревиатурой, а слова, 
+	не являющиеся слишком длинными, должны остаться без изменений.
+
+	Входные данные :
+В первой строке содержится целое число n (1 ≤ n ≤ 100). 
+В каждой из последующих n строк содержится по одному слову. 
+Все слова состоят из малых латинских букв и имеют длину от 1 до 100 символов.
+
+	Выходные данные :
+Выведите n строк. В i строке должен находится результат замены i-го слова из входных данных.
+
+	Примеры :
+  входные данные
+4
+word
+localization
+internationalization
+pneumonoultramicroscopicsilicovolcanoconiosis
+
+  выходные данные
+word
+l10n
+i18n
+p43s
+------------------------------------------------------------------------------------------------
+	A. Way Too Long Words
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Sometimes some words like "localization" or "internationalization" are so long that writing 
+	them many times in one text is quite tiresome.
+
+	Let's consider a word too long, if its length is strictly more than 10 characters. 
+	All too long words should be replaced with a special abbreviation.
+
+	This abbreviation is made like this: we write down the first and the last letter of a word and 
+	between them we write the number of letters between the first and the last letters. 
+	That number is in decimal system and doesn't contain any leading zeroes.
+
+	Thus, "localization" will be spelt as "l10n", and "internationalization» will be spelt as "i18n".
+
+	You are suggested to automatize the process of changing the words with abbreviations. 
+	At that all too long words should be replaced by the abbreviation and the words that 
+	are not too long should not undergo any changes.
+
+	Input :
+The first line contains an integer n (1 ≤ n ≤ 100). 
+Each of the following n lines contains one word. 
+All the words consist of lowercase Latin letters and possess the lengths of from 1 to 100 characters.
+
+	Output :
+Print n lines. 
+The i-th line should contain the result of replacing of the i-th word from the input data.
+
+	Examples :
+  input
+4
+word
+localization
+internationalization
+pneumonoultramicroscopicsilicovolcanoconiosis
+
+  output
+word
+l10n
+i18n
+p43s
+
+http://codeforces.com/problemset/problem/71/A?locale=en
