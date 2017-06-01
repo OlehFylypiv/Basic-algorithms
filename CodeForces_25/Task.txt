@@ -1,0 +1,73 @@
+	A. Укладка доминошками
+ограничение по времени на тест : 2 seconds
+ограничение по памяти на тест : 256 megabytes
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Дана прямоугольная клеточная доска размера M × N клеток. 
+	Также дано неограниченное количество стандартных доминошек размера 2 × 1 клетку. 
+	Доминошки можно поворачивать. 
+	Требуется уложить как можно больше доминошек на доску так, чтобы соблюдались следующие условия:
+
+	1. Каждая доминошка полностью покрывает две клетки доски.
+
+	2. Никакие две доминошки не перекрываются.
+
+	3. Каждая доминошка полностью лежит внутри доски. Касание краев доски допускается.
+
+	Найдите максимальное количество доминошек, которое можно уложить с данными ограничениями.
+
+	Входные данные :
+В единственной строке записано два целых числа M и N — размеры доски в клетках (1 ≤ M ≤ N ≤ 16).
+
+	Выходные данные :
+Выведите одно число — максимальное количество доминошек, которое можно уложить.
+
+	Примеры :
+входные данные
+2 4
+выходные данные
+4
+----------------
+входные данные
+3 3
+выходные данные
+4
+-----------------------------------------------------------------------------------------------------
+	A. Domino piling
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	You are given a rectangular board of M × N squares. 
+	Also you are given an unlimited number of standard domino pieces of 2 × 1 squares. 
+	You are allowed to rotate the pieces. 
+	You are asked to place as many dominoes as possible on the board so as to meet the following conditions:
+
+	1. Each domino completely covers two squares.
+
+	2. No two dominoes overlap.
+
+	3. Each domino lies entirely inside the board. It is allowed to touch the edges of the board.
+
+	Find the maximum number of dominoes, which can be placed under these restrictions.
+
+	Input :
+In a single line you are given two integers M and N — board sizes in squares (1 ≤ M ≤ N ≤ 16).
+
+	Output :
+Output one number — the maximal number of dominoes, which can be placed.
+
+	Examples :
+input
+2 4
+output
+4
+--------
+input
+3 3
+output
+4
+
+http://codeforces.com/problemset/problem/50/A?locale=en
