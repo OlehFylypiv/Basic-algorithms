@@ -1,0 +1,119 @@
+	A. Кораблекрушение
+ограничение по времени на тест : 2 seconds
+ограничение по памяти на тест : 256 megabytes
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Корабль наткнулся на риф и сейчас терпит крушение. 
+	Теперь весь экипаж должен быть срочно эвакуирован. 
+	Все n членов экипажа уже выстроились в один ряд 
+	(для удобства пронумеруем их всех слева направо натуральными числами от 1 до n) 
+	и ждут дальнейших указаний. 
+	Однако эвакуировать экипаж полагается не абы как, а в строгом порядке. А именно:
+
+	Сначала корабль покидают те члены экипажа, которые являются крысами. 
+	Затем корабль покидают женщины и дети (и те, и другие имеют одинаковый приоритет). 
+	После этого с корабля эвакуируются все мужчины. 
+	Последним тонущий корабль покидает капитан.
+
+	Если для каких-либо двух членов экипажа нельзя точно установить, 
+	кто должен покинуть корабль раньше по правилам из предыдущего абзаца, 
+	то раньше корабль покидает тот, который стоит левее в ряду 
+	(или, другими словами, тот, у которого номер в ряду меньше).
+
+	Для каждого члена экипажа известно, кем он является, а так же его имя. 
+	Все члены экипажа имеют различные имена. 
+	Определите порядок эвакуации экипажа.
+
+	Входные данные :
+В первой строке находится целое число n — количество людей в экипаже (1 ≤ n ≤ 100). 
+Далее идут n строчек. 
+В i-ой из этих строк находятся два слова — имя i-го члена экипажа в ряду и его статус на корабле. 
+Слова разделяются ровно одним пробелом, других пробелов в строке нет. 
+Имена состоят из латинских букв, первая буква заглавная, остальные — прописные. 
+Длина любого имени от 1 до 10 символов. 
+Статус может иметь следующие значения: rat — крыса, woman — женщина, 
+child — ребенок, man — мужчина, captain — капитан. 
+В экипаже ровно один капитан.
+
+	Выходные данные :
+Выведите n строк. i-ая из них должна содержать имя члена экипажа, 
+который должен покинуть корабль i-ым по счету.
+
+	Примеры :
+входные данные
+6
+Jack captain
+Alice woman
+Charlie man
+Teddy rat
+Bob child
+Julia woman
+---------------
+выходные данные
+Teddy
+Alice
+Bob
+Julia
+Charlie
+Jack
+------------------------------------------------------------------------------------------------------------------
+	A. Sinking Ship
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	The ship crashed into a reef and is sinking. 
+	Now the entire crew must be evacuated. 
+	All n crew members have already lined up in a row 
+	(for convenience let's label them all from left to right with positive integers from 1 to n) and 
+	await further instructions. 
+	However, one should evacuate the crew properly, in a strict order. Specifically:
+
+	The first crew members to leave the ship are rats. 
+	Then women and children (both groups have the same priority) leave the ship. 
+	After that all men are evacuated from the ship. 
+	The captain leaves the sinking ship last.
+
+	If we cannot determine exactly who should leave the ship first for any two members of the crew by 
+	the rules from the previous paragraph, 
+	then the one who stands to the left in the line leaves the ship first 
+	(or in other words, the one whose number in the line is less).
+
+	For each crew member we know his status as a crew member, and also his name. 
+	All crew members have different names. 
+	Determine the order in which to evacuate the crew.
+
+	Input :
+The first line contains an integer n, which is the number of people in the crew (1 ≤ n ≤ 100). 
+Then follow n lines. The i-th of those lines contains two words — the name of the crew member who is i-th in line, 
+and his status on the ship. The words are separated by exactly one space. There are no other spaces in the line. 
+The names consist of Latin letters, the first letter is uppercase, the rest are lowercase. 
+The length of any name is from 1 to 10 characters. The status can have the following values: 
+rat for a rat, woman for a woman, child for a child, man for a man, captain for the captain. 
+The crew contains exactly one captain.
+
+	Output :
+Print n lines. 
+The i-th of them should contain the name of the crew member who must be the i-th one to leave the ship.
+
+Examples
+input
+6
+Jack captain
+Alice woman
+Charlie man
+Teddy rat
+Bob child
+Julia woman
+-------------
+output
+Teddy
+Alice
+Bob
+Julia
+Charlie
+Jack
+
+http://codeforces.com/problemset/problem/63/A?locale=en
