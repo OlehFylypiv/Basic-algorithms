@@ -1,0 +1,76 @@
+	A. Мне скучно жить
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+	
+	Закончилось время каникул. Благодаря помощи хакера Лехи, 
+	Нура все же смогла поступить в университет своей мечты, который находится в Павлополисе. 
+	Как известно, на очной форме обучения университеты предоставляют студентам общежития, 
+	поэтому Нуре пришлось переехать в Павлополис. 
+	Теперь Леха остался совсем один в тихом городке Вичкополисе. 
+	От скуки он даже едва не впал в депрессию!
+
+	Чтобы хоть немного развеяться Леха придумал для себя задачу. 
+	Он выбирает два целых числа A и B, а затем считает наибольший общий делитель чисел «A факториал» и «B факториал». 
+	Более формально, хакер хочет посчитать НОД(A!, B!). 
+	Как известно, факториал числа x равен произведению всех положительных целых чисел, не превосходящих x. 
+	Таким образом, x! = 1·2·3·...·(x - 1)·x. Например, 4! = 1·2·3·4 = 24. 
+	Напомним, что НОД(x, y) определяется, как такое наибольшее целое число q, что делит x нацело и делит y нацело.
+
+	Леха научился решать такую задачку очень быстро. А сможете ли вы?
+
+	Входные данные :
+В первой и единственной строке входного файла дано два целых числа A и B (1 ≤ A, B ≤ 10^9, min(A, B) ≤ 12).
+
+	Выходные данные :
+Выведите одно число — наибольший общий делитель чисел A! и B!.
+
+	Пример :
+входные данные
+4 3
+выходные данные
+6
+-----------------
+	Примечание :
+4! = 1·2·3·4 = 24. 3! = 1·2·3 = 6. Наибольший общий делитель чисел 24 и 6 равен 6.
+--------------------------------------------------------------------------------------------------------------------------------
+	A. I'm bored with life
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Holidays have finished. Thanks to the help of the hacker Leha, 
+	Noora managed to enter the university of her dreams which is located in a town Pavlopolis. 
+	It's well known that universities provide students with dormitory for the period of university studies. 
+	Consequently Noora had to leave Vičkopolis and move to Pavlopolis. 
+	Thus Leha was left completely alone in a quiet town Vičkopolis. 
+	He almost even fell into a depression from boredom!
+
+	Leha came up with a task for himself to relax a little. 
+	He chooses two integers A and B and then calculates the greatest common divisor of integers "A factorial" and "B factorial". 
+	Formally the hacker wants to find out GCD(A!, B!). 
+	It's well known that the factorial of an integer x is a product of all positive integers less than or equal to x. 
+	Thus x! = 1·2·3·...·(x - 1)·x. For example 4! = 1·2·3·4 = 24. 
+	Recall that GCD(x, y) is the largest positive integer q that divides (without a remainder) both x and y.
+
+	Leha has learned how to solve this task very effective. You are able to cope with it not worse, aren't you?
+
+	Input :
+The first and single line contains two integers A and B (1 ≤ A, B ≤ 10^9, min(A, B) ≤ 12).
+
+	Output :
+Print a single integer denoting the greatest common divisor of integers A! and B!.
+
+	Example :
+input
+4 3
+output
+6
+----------
+	Note :
+4! = 1·2·3·4 = 24. 3! = 1·2·3 = 6. The greatest common divisor of integers 24 and 6 is exactly 6.
+
+
+http://codeforces.com/problemset/problem/822/A?locale=en
