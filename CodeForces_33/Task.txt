@@ -1,0 +1,75 @@
+	A. Треугольные числа
+ограничение по времени на тест : 2 seconds
+ограничение по памяти на тест : 256 megabytes
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Треугольное число — это число кружков, 
+	которые могут быть расставлены в форме равностороннего треугольника. 
+	Например, три кружка можно расставить в форме треугольника, 
+	значит три — треугольное число. 
+	n-ое треугольное число — это количество кружков в треугольнике, 
+	на стороне которого n кружков. 
+	Вы можете прочитать подробно про эти числа в Википедии
+	(http://en.wikipedia.org/wiki/Triangular_number или http://ru.wikipedia.org/wiki/Треугольное_число).
+
+	Ваша задача — определить, является ли заданное целое число треугольным.
+
+	Входные данные :
+Первая строка содержит одно число n (1 ≤ n ≤ 500) — заданное целое число.
+
+	Выходные данные :
+Если заданное целое число является треугольным, выведите YES, иначе выведите NO.
+
+	Примеры :
+входные данные
+1
+выходные данные
+YES
+----------------
+входные данные
+2
+выходные данные
+NO
+----------------
+входные данные
+3
+выходные данные
+YES
+----------------------------------------------------------------------------------------------------------
+	A. Triangular numbers
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	A triangular number is the number of dots in an equilateral triangle uniformly filled with dots. 
+	For example, three dots can be arranged in a triangle; thus three is a triangular number. 
+	The n-th triangular number is the number of dots in a triangle with n dots on a side. 
+	You can learn more about these numbers from Wikipedia (http://en.wikipedia.org/wiki/Triangular_number).
+
+	Your task is to find out if a given integer is a triangular number.
+
+	Input :
+The first line contains the single number n (1 ≤ n ≤ 500) — the given integer.
+
+	Output :
+If the given integer is a triangular number output YES, otherwise output NO.
+
+Examples
+input
+1
+output
+YES
+--------
+input
+2
+output
+NO
+--------
+input
+3
+output
+YES
+
+http://codeforces.com/problemset/problem/47/A?locale=en
