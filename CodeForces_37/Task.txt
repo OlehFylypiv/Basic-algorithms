@@ -1,0 +1,114 @@
+	A. Кнопочные гонки
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+	
+	Двое решили посоревноваться в набирании текстов на сайте «Кнопочные гонки». 
+	Во время соревнования необходимо ввести текст из s символов. 
+	Первый участник набирает один символ за v1 миллисекунд и имеет пинг t1 миллисекунд. 
+	Второй участник набирает один символ за v2 миллисекунд и имеет пинг t2 миллисекунд.
+
+	При соединении с пингом (задержкой) в t миллисекунд соревнование проходит для участника следующим образом:
+
+	Ровно через t миллисекунд после начала соревнования участник получает текст, который необходимо ввести.
+	Сразу после этого он начинает вводить этот текст.
+	Ровно через t миллисекунд после того, как он перепечатал весь текст, сайт получает информацию об этом.
+	Победителем в соревновании является тот участник, информация об успехе которого пришла раньше. 
+	Если информация пришла от обоих участников одновременно, считается, что произошла ничья.
+
+	По данной длине текста и информации об участниках, определите исход игры.
+
+	Входные данные :
+Первая строка содержит пять целых чисел s, v1, v2, t1, t2 (1 ≤ s, v1, v2, t1, t2 ≤ 1000) — 
+количество символов в тексте, скорость набора текста первым участником, 
+скорость набора текста вторым участником, пинг первого участника и пинг второго участника.
+
+	Выходные данные :
+Если выиграет первый участник, выведите «First». Если выиграет второй участник, выведите «Second». 
+В случае ничьей выведите «Friendship».
+
+	Примеры :
+входные данные
+5 1 2 1 2
+выходные данные
+First
+----------------
+входные данные
+3 3 1 1 1
+выходные данные
+Second
+----------------
+входные данные
+4 5 3 1 5
+выходные данные
+Friendship
+----------------
+	Примечание :
+В первом примере информация об успехе первого участника придёт в момент времени 7, 
+об успехе второго — в момент времени 14. Таким образом, выиграет первый участник.
+
+Во втором примере информация об успехе первого участника придёт в момент времени 11, 
+об успехе второго — в момент времени 5. Таким образом, выиграет второй участник.
+
+В третьем примере информация об успехе первого участника придёт в момент времени 22, 
+об успехе второго — в момент времени 22. Таким образом, будет ничья.
+--------------------------------------------------------------------------------------------------------------------
+	A. Key races
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Two boys decided to compete in text typing on the site "Key races". 
+	During the competition, they have to type a text consisting of s characters. 
+	The first participant types one character in v1 milliseconds and has ping t1 milliseconds. 
+	The second participant types one character in v2 milliseconds and has ping t2 milliseconds.
+
+	If connection ping (delay) is t milliseconds, the competition passes for a participant as follows:
+
+	Exactly after t milliseconds after the start of the competition the participant receives the text to be entered.
+	Right after that he starts to type it.
+	Exactly t milliseconds after he ends typing all the text, the site receives information about it.
+	The winner is the participant whose information on the success comes earlier. 
+	If the information comes from both participants at the same time, it is considered that there is a draw.
+
+	Given the length of the text and the information about participants, determine the result of the game.
+
+	Input :
+The first line contains five integers s, v1, v2, t1, t2 (1 ≤ s, v1, v2, t1, t2 ≤ 1000) — 
+the number of characters in the text, the time of typing one character for the first participant, 
+the time of typing one character for the the second participant, 
+the ping of the first participant and the ping of the second participant.
+
+	Output :
+If the first participant wins, print "First". If the second participant wins, print "Second". 
+In case of a draw print "Friendship".
+
+	Examples :
+input
+5 1 2 1 2
+output
+First
+------------
+input
+3 3 1 1 1
+output
+Second
+------------
+input
+4 5 3 1 5
+output
+Friendship
+------------
+	Note :
+In the first example, information on the success of the first participant comes in 7 milliseconds, 
+of the second participant — in 14 milliseconds. So, the first wins.
+
+In the second example, information on the success of the first participant comes in 11 milliseconds, 
+of the second participant — in 5 milliseconds. So, the second wins.
+
+In the third example, information on the success of the first participant comes in 22 milliseconds, 
+of the second participant — in 22 milliseconds. So, it is be a draw.
+
+http://codeforces.com/problemset/problem/835/A?locale=en
