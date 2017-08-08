@@ -1,0 +1,89 @@
+	A. Упражнение на строки
+ограничение по времени на тест : 2 seconds
+ограничение по памяти на тест : 256 megabytes
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Петя записался в кружок по программированию. 
+	На первом занятии Пете задали написать простую программу. 
+	Программа должна делать следующее: 
+	в заданной строке, которая состоит из прописных и строчных латинских букв, она:
+
+	удаляет все гласные буквы,
+	перед каждой согласной буквой ставит символ ".",
+	все прописные согласные буквы заменяет на строчные.
+	Гласными буквами считаются буквы "A", "O", "Y", "E", "U", "I", а согласными — все остальные. 
+	На вход программе подается ровно одна строка, она должна вернуть результат в виде одной строки, 
+	получившейся после обработки.
+
+	Помогите Пете справиться с этим несложным заданием.
+
+	Входные данные :
+Первая строка представляет собой входные данные для Петиной программы. 
+Эта строка состоит только из прописных и строчных латинских букв и имеет длину от 1 до 100 включительно.
+
+	Выходные данные :
+Выведите получившуюся строку. Гарантируется, что эта строка не пуста.
+
+	Примеры :
+входные данные
+tour
+выходные данные
+.t.r
+-------------------
+входные данные
+Codeforces
+выходные данные
+.c.d.f.r.c.s
+-------------------
+входные данные
+aBAcAba
+выходные данные
+.b.c.b
+--------------------------------------------------------------------------------------------------------
+	A. String Task
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Petya started to attend programming lessons. 
+	On the first lesson his task was to write a simple program. 
+	The program was supposed to do the following: 
+	in the given string, consisting if uppercase and lowercase Latin letters, it:
+
+	deletes all the vowels,
+	inserts a character "." before each consonant,
+	replaces all uppercase consonants with corresponding lowercase ones.
+	Vowels are letters "A", "O", "Y", "E", "U", "I", and the rest are consonants. 
+	The program's input is exactly one string, it should return the output as a single string, 
+	resulting after the program's processing the initial string.
+
+	Help Petya cope with this easy task.
+
+	Input :
+The first line represents input string of Petya's program. 
+This string only consists of uppercase and lowercase Latin letters 
+and its length is from 1 to 100, inclusive.
+
+	Output :
+Print the resulting string. It is guaranteed that this string is not empty.
+
+	Examples :
+input
+tour
+output
+.t.r
+-------------------
+input
+Codeforces
+output
+.c.d.f.r.c.s
+-------------------
+input
+aBAcAba
+output
+.b.c.b
+-------------------
+
+http://codeforces.com/problemset/problem/118/A?locale=en
