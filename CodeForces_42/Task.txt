@@ -1,0 +1,70 @@
+	A. IQ тест
+ограничение по времени на тест : 2 seconds
+ограничение по памяти на тест : 256 megabytes
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+	Вася готовится проходить IQ тест. 
+	В этом тесте часто встречаются задания, в которых нужно найти лишнее из n чисел. 
+	Вася заметил, что это лишнее число обычно отличается от остальных по четности. 
+	Помогите Васе — для проверки своих ответов, ему требуется программа, 
+	которая среди заданных n чисел находит отличающееся по четности.
+
+	Входные данные :
+В первой строке записано целое число n (3 ≤ n ≤ 100) — количество чисел в задании. 
+Во второй строке через пробел записано n натуральных чисел, не превосходящих 100. 
+Гарантируется, что среди этих чисел ровно одно отличается по четности от остальных.
+
+	Выходные данные :
+Выведите номер числа, которое отличается по четности от остальных. 
+Числа нумеруются начиная с 1 в том порядке, в котором они заданы во входных данных.
+
+	Примеры :
+входные данные
+5
+2 4 7 8 10
+выходные данные
+3
+-------------------
+входные данные
+4
+1 2 1 1
+выходные данные
+2
+----------------------------------------------------------------------------------------------
+	A. IQ test
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+	Bob is preparing to pass IQ test. 
+	The most frequent task in this test is to find out which one of the given n numbers 
+	differs from the others. 
+	Bob observed that one number usually differs from the others in evenness. 
+	Help Bob — to check his answers, 
+	he needs a program that among the given n numbers finds one that is different in evenness.
+
+	Input :
+The first line contains integer n (3 ≤ n ≤ 100) — amount of numbers in the task. 
+The second line contains n space-separated natural numbers, not exceeding 100. 
+It is guaranteed, that exactly one of these numbers differs from the others in evenness.
+
+	Output :
+Output index of number that differs from the others in evenness. 
+Numbers are numbered from 1 in the input order.
+
+	Examples :
+input
+5
+2 4 7 8 10
+output
+3
+-------------------
+input
+4
+1 2 1 1
+output
+2
+
+http://codeforces.com/problemset/problem/25/A?locale=en
