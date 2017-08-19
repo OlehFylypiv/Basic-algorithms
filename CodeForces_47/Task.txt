@@ -1,0 +1,108 @@
+    A. Дабстеп
+ограничение по времени на тест : 2 секунды
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+    Вася работает диджеем в самом лучшем ночном клубе Берляндии, 
+    и часто в своих выступлениях он использует музыку в стиле «дабстеп». 
+    Недавно он решил взять несколько старых песен и сделать из них дабстеп-ремиксы.
+
+    Пусть песня состоит из некоторого количества слов. 
+    Для того, чтобы сделать дабстеп-ремикс этой песни, 
+    Вася вставляет некоторое количество слов «WUB» до первого слова песни (возможно нулевое количество), 
+    после последнего слова (возможно нулевое количество) и между словами 
+    (между любой парой соседних слов песни хотя бы одно слово «WUB»), 
+    а затем склеивает все слова, включая «WUB», в одну строку и проигрывает в клубе.
+
+    Например, из песни со словами «I AM X» может получиться дабстеп-ремикс «WUBWUBIWUBAMWUBWUBX» и 
+    не может получиться дабстеп-ремикс «WUBWUBIAMWUBX».
+
+    Недавно Петя услышал новую дабстеп-композицию Васи, но так как он не очень любит современную музыку, 
+    то решил понять, из какой же песни Вася сделал свой ремикс. Помогите Пете восстановить оригинал.
+
+    Входные данные :
+Входные данные состоят из единственной непустой строки, состоящей только из заглавных латинских букв, 
+длиной не более 200 символов. 
+Гарантируется, что до создания ремикса ни одно слово не содержало в себе подстроку «WUB», 
+и Вася не менял их порядок. 
+Также гарантируется, что изначально в песне было не менее одного слова.
+
+    Выходные данные :
+Выведите слова песни, которую Вася использовал для создания дабстеп-ремикса. 
+Слова при выводе разделяйте пробелом.
+
+    Примеры :
+входные данные
+WUBWUBABCWUB
+выходные данные
+ABC 
+---------------------------------------------------
+входные данные
+WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB
+выходные данные
+WE ARE THE CHAMPIONS MY FRIEND 
+---------------------------------------------------
+    Примечание :
+В первом примере: «WUBWUBABCWUB» = «WUB» + «WUB» + «ABC» + «WUB». 
+Значит, в оригинале песня состоит из одного слова «ABC», так как все слова «WUB» добавил Вася.
+
+Во втором примере между всеми соседними словами, а также в начало и в конец, 
+Вася добавил по одному слову «WUB», кроме как между словами 
+«ARE» и «THE» — между ними Вася добавил два «WUB».
+-------------------------------------------------------------------------------------------------------------
+    A. Dubstep
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+
+    Vasya works as a DJ in the best Berland nightclub, and he often uses dubstep music in his performance.
+    Recently, he has decided to take a couple of old songs and make dubstep remixes from them.
+
+    Let's assume that a song consists of some number of words. 
+    To make the dubstep remix of this song, Vasya inserts a certain number of words "WUB" before 
+    the first word of the song (the number may be zero), after the last word (the number may be zero), 
+    and between words (at least one between any pair of neighbouring words), 
+    and then the boy glues together all the words, including "WUB", 
+    in one string and plays the song at the club.
+
+    For example, a song with words "I AM X" can transform into a dubstep remix as "WUBWUBIWUBAMWUBWUBX" 
+    and cannot transform into "WUBWUBIAMWUBX".
+
+    Recently, Petya has heard Vasya's new dubstep track, but since he isn't into modern music, 
+    he decided to find out what was the initial song that Vasya remixed. 
+    Help Petya restore the original song.
+
+    Input :
+The input consists of a single non-empty string, consisting only of uppercase English letters, 
+the string's length doesn't exceed 200 characters. 
+It is guaranteed that before Vasya remixed the song, no word contained substring "WUB" in it; 
+Vasya didn't change the word order. It is also guaranteed that initially the song had at least one word.
+
+    Output :
+Print the words of the initial song that Vasya used to make a dubsteb remix. 
+Separate the words with a space.
+
+    Examples :
+input
+WUBWUBABCWUB
+output
+ABC 
+---------------------------------------------------
+input
+WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB
+output
+WE ARE THE CHAMPIONS MY FRIEND 
+---------------------------------------------------
+    Note :
+In the first sample: "WUBWUBABCWUB" = "WUB" + "WUB" + "ABC" + "WUB". 
+That means that the song originally consisted of a single word "ABC", 
+and all words "WUB" were added by Vasya.
+
+In the second sample Vasya added a single word "WUB" between all neighbouring words, 
+in the beginning and in the end, except for words "ARE" and "THE" — 
+between them Vasya added two "WUB".
+
+
+http://codeforces.com/problemset/problem/208/A?locale=en
