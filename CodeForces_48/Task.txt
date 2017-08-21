@@ -1,0 +1,106 @@
+    A. Маленький Слоник и Роздол
+ограничение по времени на тест : 2 секунды
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+    Маленький Слоник очень любит Украину. Особенно сильно он любит город Роздол.
+
+    Но постоянно находиться в Роздоле очень вредно, поэтому Маленький Слоник хочет съездить 
+    в какой-нибудь другой город. 
+    Маленький Слоник не любит тратить много времени на переезды, 
+    поэтому для своего путешествия он выберет город, проезд до которого занимает минимальное время.
+    Если же таких городов несколько, то Маленький Слоник никуда не поедет.
+
+    Для каждого города кроме Роздола вам известно время, требуемое для путешествия в этот город. 
+    Определите в какой город поедет Маленький Слоник или выведите «Still Rozdil», 
+    если он останется в Роздоле.
+
+    Входные данные :
+В первой строке задано единственное целое число n (1 ≤ n ≤ 10^5) — количество городов. 
+В следующей строке задано n целых чисел, разделенных единичными пробелами: 
+i-ое число обозначает время, требуемое на проезд от города Роздол до i-го города. 
+Времена — целые положительные числа, не превосходящие 10^9.
+
+Можете считать, что все города пронумерованы от 1 до n включительно. 
+Роздол в число пронумерованных городов не входит.
+
+    Выходные данные :
+В единственной строке выведите ответ — номер города, в который поедет Маленький Слоник. 
+Если городов с минимальным временем проезда несколько, выведите «Still Rozdil» (без кавычек).
+
+    Примеры :
+входные данные
+2
+7 4
+выходные данные
+2
+---------------------
+входные данные
+7
+7 4 47 100 4 9 12
+выходные данные
+Still Rozdil
+---------------------
+    Примечание :
+В первом примере есть только два города, куда может съездить Маленький Слоник. 
+Время путешествия до первого из них равно 7, до второго — 4. 
+Ближайший к Роздолу город (он единственный) — второй, поэтому ответ 2.
+
+Во втором примере ближайшими городами являются второй и пятый, 
+время путешествия до них обоих равно 4, поэтому ответ — «Still Rozdil».
+----------------------------------------------------------------------------------------------------
+    A. Little Elephant and Rozdil
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input standard input
+output standard output
+
+    The Little Elephant loves Ukraine very much. Most of all he loves town Rozdol (ukr. "Rozdil").
+
+    However, Rozdil is dangerous to settle, so the Little Elephant wants to go to some other town.
+    The Little Elephant doesn't like to spend much time on travelling, 
+    so for his journey he will choose a town that needs minimum time to travel to. 
+    If there are multiple such cities, then the Little Elephant won't go anywhere.
+
+    For each town except for Rozdil you know the time needed to travel to this town. 
+    Find the town the Little Elephant will go to or print "Still Rozdil", 
+    if he stays in Rozdil.
+
+    Input :
+The first line contains a single integer n (1 ≤ n ≤ 10^5) — the number of cities. 
+The next line contains n integers, separated by single spaces: 
+the i-th integer represents the time needed to go from town Rozdil to the i-th town. 
+The time values are positive integers, not exceeding 10^9.
+
+You can consider the cities numbered from 1 to n, inclusive. 
+Rozdil is not among the numbered cities.
+
+    Output :
+Print the answer on a single line — the number of the town the Little Elephant will go to. 
+If there are multiple cities with minimum travel time, 
+print "Still Rozdil" (without the quotes).
+
+    Examples :
+input
+2
+7 4
+output
+2
+--------------------
+input
+7
+7 4 47 100 4 9 12
+output
+Still Rozdil
+--------------------
+    Note :
+In the first sample there are only two cities where the Little Elephant can go. 
+The travel time for the first town equals 7, to the second one — 4. 
+The town which is closest to Rodzil (the only one) is the second one, so the answer is 2.
+
+In the second sample the closest cities are cities two and five, 
+the travelling time to both of them equals 4, so the answer is "Still Rozdil".
+
+
+http://codeforces.com/problemset/problem/205/A?locale=en
