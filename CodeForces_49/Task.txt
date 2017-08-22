@@ -1,0 +1,107 @@
+    A. Bit++
+ограничение по времени на тест : 1 секунда
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+    Классический язык программирования в Битландии — Bit++. 
+    Этот язык очень необычный и сложный!
+
+    Особенность языка Bit++ состоит в том, что в нем ровно одна переменная, которая называется x. 
+    Также в этом языке есть две операции:
+
+    Операция ++ увеличивает значение, хранящееся в переменной x на 1.
+    Операция -- уменьшает значение, хранящееся в переменной x на 1.
+    Предложение в языке Bit++ — это последовательность, состоящая из ровно одной операции и 
+    ровно одной переменной x. Предложение записывается без пробелов, 
+    то есть может содержать только символы: «+», «-», «X». 
+    Выполнить предложение, значит выполнить операцию, которая содержится в предложении.
+
+    Программа на языке Bit++ — это последовательность предложений, 
+    каждое из которых требуется выполнить. 
+    Выполнить программу, значит выполнить все ее предложения.
+
+    Вам задана программа на языке Bit++. 
+    Перед выполнением программы в переменной x хранится значение 0. 
+    Выполните программу и выведите значение, 
+    которое будет храниться в переменной x после выполнения программы.
+
+    Входные данные :
+В первой строке записано единственное целое число n (1 ≤ n ≤ 150) — количество предложений в программе. 
+В каждой из следующих n строк записано по предложению. 
+Каждое предложение состоит из ровно одной операции (++ или --) и 
+ровно одной переменной x (обозначается буквой «X»). 
+Таким образом, не бывает пустых предложений. 
+Операция и переменная могут быть записаны в любом порядке.
+
+    Выходные данные :
+Выведите единственное целое число — значение, 
+которое будет храниться в переменной x после выполнения программы.
+
+    Примеры :
+входные данные
+1
+++X
+выходные данные
+1
+------------------
+входные данные
+2
+X++
+--X
+выходные данные
+0
+------------------------------------------------------------------------------------------------------------
+    A. Bit++
+time limit per test : 1 second
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+    
+    The classic programming language of Bitland is Bit++. 
+    This language is so peculiar and complicated.
+
+    The language is that peculiar as it has exactly one variable, called x. 
+    Also, there are two operations:
+
+    Operation ++ increases the value of variable x by 1.
+    Operation -- decreases the value of variable x by 1.    
+    A statement in language Bit++ is a sequence, consisting of exactly one operation and one variable x. 
+    The statement is written without spaces, that is, it can only contain characters "+", "-", "X". 
+    Executing a statement means applying the operation it contains.
+
+    A programme in Bit++ is a sequence of statements, each of them needs to be executed. 
+    Executing a programme means executing all the statements it contains.
+
+    You're given a programme in language Bit++. 
+    The initial value of x is 0. 
+    Execute the programme and find its final value 
+    (the value of the variable when this programme is executed).
+
+    Input :
+The first line contains a single integer n (1 ≤ n ≤ 150) — the number of statements in the programme.
+
+Next n lines contain a statement each. 
+Each statement contains exactly one operation (++ or --) and exactly one variable x (denoted as letter «X»). 
+Thus, there are no empty statements. The operation and the variable can be written in any order.
+
+    Output :
+Print a single integer — the final value of x.
+
+    Examples :
+input
+1
+++X
+output
+1
+----------
+input
+2
+X++
+--X
+output
+0
+----------
+
+
+http://codeforces.com/problemset/problem/282/A?locale=en
