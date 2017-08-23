@@ -1,0 +1,63 @@
+    A. Капитализация слова
+ограничение по времени на тест : 2 секунды
+ограничение по памяти на тест : 256 мегабайт
+ввод : стандартный ввод
+вывод : стандартный вывод
+
+    Капитализация — это запись слова, в которой первая буква слова записывается как прописная буква. 
+    Ваша задача, вывести капитализацию заданного слова.
+
+    Обратите внимание, что в капитализации все буквы слова кроме первой остаются не измененными.
+
+    Входные данные :
+В первой строке записано непустое слово. 
+Слово состоит из строчных и прописных букв латинского алфавита. 
+Длина заданного слова не превосходит 10^3 букв.
+
+    Выходные данные :
+Выведите капитализацию слова.
+
+    Примеры :
+входные данные
+ApPLe
+выходные данные
+ApPLe
+-----------------
+входные данные
+konjac
+выходные данные
+Konjac
+--------------------------------------------------------------------------------------------------------
+    A. Word Capitalization
+time limit per test : 2 seconds
+memory limit per test : 256 megabytes
+input : standard input
+output : standard output
+    
+    Capitalization is writing a word with its first letter as a capital letter. 
+    Your task is to capitalize the given word.
+
+    Note, that during capitalization all the letters except the first one remains unchanged.
+
+    Input :
+A single line contains a non-empty word. 
+This word consists of lowercase and uppercase English letters. 
+The length of the word will not exceed 10^3.
+
+    Output :
+Output the given word after capitalization.
+
+    Examples :
+input
+ApPLe
+output
+ApPLe
+----------
+input
+konjac
+output
+Konjac
+----------
+
+
+http://codeforces.com/problemset/problem/281/A?locale=en
