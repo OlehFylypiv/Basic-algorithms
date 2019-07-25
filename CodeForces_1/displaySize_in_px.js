@@ -8,54 +8,44 @@ Your task is to determine the size of the rectangular display
 Detail in Task.txt
 */
 
-function displaySize (n) {
-	let checkInt = Math.sqrt (n);
-	let makeInt = parseInt (checkInt);
+function displaySize(n) {
+    let checkInt = Math.sqrt(n);
+    let makeInt = parseInt(checkInt);
 
-	while (true) {
-		
-		if (n % makeInt == 0) {
-			document.getElementById ('columns').innerHTML = 'Columns are ' + (n / makeInt);
-			document.getElementById ('rows').innerHTML = 'Rows are ' + makeInt;
-			break;
-		}
-		
-		else {
-			makeInt--;
-		}
-	}
+    while (true) {
+        if (n % makeInt == 0) {
+            document.getElementById('columns').innerHTML = 'Columns are ' + (n / makeInt);
+            document.getElementById('rows').innerHTML = 'Rows are ' + makeInt;
+            break;
+        } else {
+            makeInt--;
+        }
+    }
 }
 
-		/*Loking simple numbers*/
-function isSimple (n) {
-    
+/*Loking simple numbers*/
+function isSimple(n) {
     if (n < 2) {
-    	return false;
+        return false;
     }
-    
+
     for (let i = 2; i * i <= n; i++) {
-        
         if (n % i == 0) {
-        	return false;
+            return false;
         }
     }
     return true;
 }
 
-let n  = prompt('How many pixels do you have?');
+let n = prompt('How many pixels do you have?');
 
 if (n <= 0) {
-	document.getElementById ('error').innerHTML = 'Error'
-}
-
-else {	
-	
-	if (isSimple (n)) {
-	document.getElementById ('columns').innerHTML = 'Columns are ' + n;
-	document.getElementById ('rows').innerHTML = 'Rows are 1';
-	}
-
-	else {
-	displaySize (n);
-	}
+    document.getElementById('error').innerHTML = 'Error'
+} else {
+    if (isSimple(n)) {
+        document.getElementById('columns').innerHTML = 'Columns are ' + n;
+        document.getElementById('rows').innerHTML = 'Rows are 1';
+    } else {
+        displaySize(n);
+    }
 }
